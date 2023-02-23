@@ -1,0 +1,17 @@
+1. Logistic function ()
+- sigmoid function is a special case of the Logistic function when L = 1, k = 1, x0 = 0
+
+    +Logistic function:
+        f(x) = L/(1+Ce^(-k(x - x0)))
+    +Sigmoid function:
+        S(t) = 1/(1+e(-t))      [1]
+- explained:
+    + L is the maximum value the function can take. e^(-k(x-x0)) is always greater or equal than 0.
+    + the maximum point is achieved when it is 0, and is at L/1
+    + x0 controls where on the x axis the growth should be. If x = x0 => e^0 = 1 => f(x0) = L/2, the midpoint of the growth
+    + The parameter k controls how steep the change from the minimum to the maximum value is.
+    + C is the constant from integration.
+- From wiki:
+A sigmoid function is a mathematical function having a characteristic "S"-shaped curve or sigmoid curve.
+
+A common example of a sigmoid function is the logistic function shown in the first figure and defined by the formula:[1]
