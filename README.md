@@ -23,3 +23,5 @@ Octan RRS extracts interelation between accounts, dapps, social insights and use
 - Lenders can use reputation scores as a credibility indicator.
 
 Visit Octan reputation ranking report https://drive.google.com/file/d/1Kp420xgDOYMz3n0X1DWRBqSJNohGxrBE/view?usp=share_link 
+# Data processing pipeline
+Octan has developed a data processing pipeline for BNB Chain to serve Reputation Ranking System here https://github.com/Octan-Labs/pipeline
