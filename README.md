@@ -25,3 +25,7 @@ Octan RRS extracts interelation between accounts, dapps, social insights and use
 Visit Octan reputation ranking report https://drive.google.com/file/d/1Kp420xgDOYMz3n0X1DWRBqSJNohGxrBE/view?usp=share_link 
 # Data processing pipeline
 Octan has developed a data processing pipeline for BNB Chain to serve Reputation Ranking System here https://github.com/Octan-Labs/pipeline
+
+# Octan Soulbound 
+Octan Soulbound token is utilized to unify and carry users' reputation scores accross multiple chains.  
+Visit audited Octan Soulbound token contracts https://github.com/Octan-Labs/Octan1ID-SoulBound)
