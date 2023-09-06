@@ -28,4 +28,5 @@ Octan has developed a data processing pipeline for BNB Chain to serve Reputation
 
 # Octan Soulbound 
 Octan Soulbound token is utilized to unify and carry users' reputation scores accross multiple chains.  
-Visit audited Octan Soulbound token contracts https://github.com/Octan-Labs/Octan1ID-SoulBound)
+Visit audited Octan Soulbound token contracts https://github.com/Octan-Labs/Octan1ID-SoulBound)  
+Mint Octan SBT (on BNB Chain mainnet) to carry and update reputation scores: https://octan.network/1-id  
