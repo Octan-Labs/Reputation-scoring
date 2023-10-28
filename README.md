@@ -7,9 +7,9 @@ Inspired by Google's PageRank, Octan Labs wants to build a similar system in Web
 Preliminary ranking concepts:
 - A node means an account (or public address) on a blockchain. It may be a personal account or a contract address.
 - An edge indicates one or many directed transactions from account A to account B. 
-- A (directed) graph consists of nodes and edges, presenting transactions among accounts.
+- A (directed) graph consists of nodes and edges, presenting onchain transactions among accounts, i.e their inter-relationships.
 
-Reputation Ranking System (RRS) typically computes reputation scores or ranking scores of all accounts in a blockchain graph.
+Reputation Ranking System (RRS) typically computes reputation scores or ranking scores of all accounts in a blockchain-based transactional graph.
 Octan defines three following schemas when computing reputation scores:
 - *Global Reputation or Global Ranking* considers all acounts and transactions on a blockchain, for example, entirely on Ethereum (more than 200 million accounts and multi-billions of transactions between them since the genesis block). However, due to limitation in computing resources, we may restrict to most recently blocks within a deterministic timeframe, for instance, a range of all blocks from 00:00:01' Jan 1st, 2020 to 24:00:00' October 30st, 2022.   Global ranking score represents reputation or importance measurement of an account in the entire blockchain network.
 - *Local/Category Reputation* considers subgraphs, i.e. sets of acounts and transactions filtered by specific (localized) criteria, for example, all transactions belonging to a token-contract (e.g. USDT), all accounts and transactions going throught Uniswap protocol or participating in DeFi markets. Local ranking score represents reputation or importance measurement of an account within a subspace of a blockchain network (currently, Octan consifers 5 subspace categories: DeFi, DAO, NFT, gamefi, socialfi).
@@ -19,7 +19,11 @@ Octan defines three following schemas when computing reputation scores:
 The Octan's founder and core team have studied onchain reputation ranking problem since 2019, then introduced several adaptive PageRank algorithms to compute reputation scores from onchain transactions. List of published, peer-reviewed scientific articles on globally recognized journals and conferences:  
 - 2019: Delegated Proof of Reputation: a Novel Blockchain Consensus, https://dl.acm.org/doi/abs/10.1145/3343147.3343160
 - 2022: PageRank and HodgeRank on Ethereum Transactions: A Measure for Social Credit, https://www.igi-global.com/article/pagerank-and-hodgerank-on-ethereum-transactions/315737  
-- 2023: On-Chain Reputation Ranking by Adaptive Weighted PageRank, accepted for the 2023 RIVF International Conference on Computing and Communication Technologies.  
+- 2023: On-Chain Reputation Ranking by Adaptive Weighted PageRank, accepted for the 2023 RIVF International Conference on Computing and Communication Technologies.
+
+# Reputation Board 
+Users can browse reputation ranks, scores and onchain statistics of any onchain entities (e.g. contracts or individual wallets).  
+Reputation board for NEO can be found here https://octan.network/?page=1  
 
 # Usecases of Octan RRS:
 Octan RRS extracts interelation between accounts, dapps, social insights and user behaviors from onchain transactions, then provides a comprehensive score and multi-dimentional insights over a blockchain, including both idividual wallets of users and contract accounts of dapps. Therefore, Octan RRS has wide ranges of applications.
