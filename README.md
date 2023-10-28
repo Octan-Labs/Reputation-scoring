@@ -18,7 +18,7 @@ Octan defines three following schemas when computing reputation scores:
 # Reputation Ranking Algorithms  
 The Octan's founder and core team have studied onchain reputation ranking problem since 2019, then introduced several adaptive PageRank algorithms to compute reputation scores from onchain transactions. List of published, peer-reviewed scientific articles on globally recognized journals and conferences:  
 - 2019: Delegated Proof of Reputation: a Novel Blockchain Consensus, https://dl.acm.org/doi/abs/10.1145/3343147.3343160
-- 2022: PageRank and HodgeRank on Ethereum Transactions: A Measure for Social Credit, [DOI: 10.4018/IJSI.315737](https://www.igi-global.com/article/pagerank-and-hodgerank-on-ethereum-transactions/315737)  
+- 2022: PageRank and HodgeRank on Ethereum Transactions: A Measure for Social Credit, https://www.igi-global.com/article/pagerank-and-hodgerank-on-ethereum-transactions/315737  
 - 2023: On-Chain Reputation Ranking by Adaptive Weighted PageRank, accepted for the 2023 RIVF International Conference on Computing and Communication Technologies.  
 
 # Usecases of Octan RRS:
